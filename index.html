@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Derri Agung</title>
+    <link rel="stylesheet" href="css/style.css">    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                Derri<span>.Agung</span>
+            </a>
+            
+            <!-- Desktop Nav -->
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#biodata">Biodata</a></li>
+                <li><a href="#portfolio">Portofolio</a></li>
+                <li><a href="#contact">Hubungi</a></li>
+            </ul>
+
+            <!-- Mobile Toggle -->
+            <button class="mobile-toggle" id="mobile-btn" aria-label="Menu">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="#home">Beranda</a>
+            <a href="#biodata">Biodata</a>
+            <a href="#portfolio">Portofolio</a>
+            <a href="#contact">Hubungi</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- SECTION 1: HERO -->
+        <section id="home">
+            <div class="container">
+                <div class="hero-content">
+                    
+                    <!-- Text Area -->
+                    <div class="hero-text">
+                        <span class="greeting-badge">👋 Selamat Datang</span>
+                        <h1>Halo, Saya <br><span>Derri Agung</span></h1>
+                        <h3>Junior Full-Stack Web Developer</h3>
+                        <p>
+                            Saya berfokus pada pembangunan solusi digital kreatif yang fungsional, adaptif, dan berkinerja tinggi. Memiliki pengalaman dalam merancang arsitektur aplikasi berbasis web modern.
+                        </p>
+                        
+                        <div class="hero-actions">
+                            <a href="#portfolio" class="btn btn-primary">Lihat Karya Saya</a>
+                            <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+                        </div>
+                    </div>
+
+                    <!-- Image/Avatar Area -->
+                    <div class="hero-image">
+                        <div class="blob-bg"></div>
+                        <div class="avatar-container">
+                            <svg width="70%" height="70%" viewBox="0 0 100 100">
+                                <circle cx="50" cy="38" r="18" fill="#475569" />
+                                <path d="M20 85 C20 55, 80 55, 80 85" fill="#475569" />
+                            </svg>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: BIODATA -->
+        <section id="biodata">
+            <div class="container">
+                
+                <div class="section-header">
+                    <h2>Biodata Diri</h2>
+                    <div class="divider"></div>
+                    <p>Informasi latar belakang personal dan profesional saya.</p>
+                </div>
+
+                <div class="biodata-grid">
+                    
+                    <div class="bio-card">
+                        <div class="bio-label">Nama Lengkap</div>
+                        <div class="bio-value">Derri Agung Prasetyo W., S.Kom</div>
+                    </div>
+
+                    <div class="bio-card">
+                        <div class="bio-label">Pekerjaan</div>
+                        <div class="bio-value">IT Support & Jr. Full Stack</div>
+                    </div>
+
+                    <div class="bio-card">
+                        <div class="bio-label">TTL</div>
+                        <div class="bio-value">Semarang, 14 Des 1997</div>
+                    </div>
+
+                    <div class="bio-card">
+                        <div class="bio-label">Pendidikan</div>
+                        <div class="bio-value">S1 Teknik Informatika</div>
+                        <div class="bio-desc">IPK: 3.13</div>
+                    </div>
+
+                    <div class="bio-card">
+                        <div class="bio-label">Keahlian Utama</div>
+                        <div class="skill-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">SQL</span>
+                        </div>
+                    </div>
+
+                    <div class="bio-card">
+                        <div class="bio-label">Kontak Info</div>
+                        <div class="bio-value" style="word-break: break-all;">derryangung7@gmail.com</div>
+                        <div class="bio-desc">+62 895 XXXX XXXX</div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: PORTOFOLIO -->
+        <section id="portfolio" style="background-color: var(--bg-body);">
+            <div class="container">
+                
+                <div class="section-header">
+                    <h2>Hasil Portofolio</h2>
+                    <div class="divider"></div>
+                    <p>Daftar proyek terpilih yang telah berhasil saya selesaikan.</p>
+                </div>
+
+                <div class="portfolio-list">
+                    
+                    <!-- Proyek 1 -->
+                    <div class="portfolio-card">
+                        <div class="card-accent accent-blue"></div>
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">1. Workspace</h3>
+                            <div class="portfolio-meta">
+                                Kategori: <strong>Aplikasi Web</strong> &bull; Teknologi: <strong>HTML5, Node.js, PostgreSQL</strong>
+                            </div>
+                            <p class="portfolio-desc">
+                                Sebuah platform kolaboratif yang membantu tim kecil hingga menengah mendistribusikan tugas, memantau kemajuan proyek secara real-time, dan mengoptimalkan efisiensi kerja.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Proyek 2 -->
+                    <div class="portfolio-card">
+                        <div class="card-accent accent-green"></div>
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">2. GoGreen E-Commerce</h3>
+                            <div class="portfolio-meta">
+                                Kategori: <strong>E-Commerce</strong> &bull; Teknologi: <strong>HTML5, Vanilla JS, API</strong>
+                            </div>
+                            <p class="portfolio-desc">
+                                Desain dan implementasi halaman e-commerce yang mengutamakan kenyamanan pengguna, pemuatan halaman yang instan, serta integrasi dompet digital secara aman.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Proyek 3 -->
+                    <div class="portfolio-card">
+                        <div class="card-accent accent-amber"></div>
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">3. Fintechy</h3>
+                            <div class="portfolio-meta">
+                                Kategori: <strong>Desain UI/UX</strong> &bull; Teknologi: <strong>Figma, Flutter</strong>
+                            </div>
+                            <p class="portfolio-desc">
+                                Sebuah visualisasi konseptual aplikasi keuangan ramah pengguna yang menyajikan grafik analisis pengeluaran mingguan secara interaktif dan dinamis.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: HUBUNGI -->
+        <section id="contact">
+            <div class="container">
+                
+                <div class="section-header">
+                    <h2>Mulai Kolaborasi</h2>
+                    <div class="divider"></div>
+                    <p>Apakah Anda berminat untuk berkolaborasi atau memiliki tawaran pekerjaan? Silakan kirimkan pesan Anda.</p>
+                </div>
+
+                <div class="contact-card">
+                    <form id="contactForm" onsubmit="handleFormSubmit(event)">
+                        
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="name">Nama Lengkap</label>
+                                <input type="text" id="name" class="form-control" placeholder="John Doe" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Alamat Email</label>
+                                <input type="email" id="email" class="form-control" placeholder="john@example.com" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Isi Pesan</label>
+                            <textarea id="message" class="form-control" placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+                        </div>
+
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-primary">Kirim Pesan Sekarang</button>
+                        </div>
+
+                        <!-- Notifikasi Sukses -->
+                        <div id="successMessage" class="success-message">
+                            Pesan Anda berhasil dikirim! (Simulasi)
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p class="highlight">&copy; 2026 Derri Agung. Seluruh Hak Cipta Dilindungi.</p>
+            <p style="font-size: 0.875rem;">Dibuat murni dengan HTML5 & Vanilla CSS.</p>
+        </div>
+    </footer>
+
+    <!-- INTERACTIVE JAVASCRIPT -->
+    <script>
+        // 1. Mobile Menu Toggle
+        const mobileBtn = document.getElementById('mobile-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+
+        mobileBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+        });
+
+        // Tutup menu mobile saat tautan diklik
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+            });
+        });
+
+        // 2. Header Box-Shadow on Scroll
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 20) {
+                header.style.boxShadow = '0 4px 6px -1px rgb(0 0 0 / 0.1)';
+            } else {
+                header.style.boxShadow = 'none';
+            }
+        });
+
+        // 3. Form Submit Handling (Tanpa Alert)
+        function handleFormSubmit(event) {
+            event.preventDefault(); // Mencegah reload halaman
+            
+            const successBox = document.getElementById('successMessage');
+            successBox.style.display = 'block';
+            
+            // Kosongkan form
+            document.getElementById('name').value = '';
+            document.getElementById('email').value = '';
+            document.getElementById('message').value = '';
+
+            // Sembunyikan notifikasi setelah 4 detik
+            setTimeout(() => {
+                successBox.style.display = 'none';
+            }, 4000);
+        }
+    </script>
+</body>
+</html>
