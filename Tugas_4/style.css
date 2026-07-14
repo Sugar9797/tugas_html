@@ -1,8 +1,13 @@
 body {
   font-family: "Sora", sans-serif;
   font-style: normal;
+  background-color: antiquewhite;
 }
 body h1 {
   font-size: 36px;
   line-height: 44px;
 }
+
+/* body div ul li a {
+  font-style: normal;
+} */
